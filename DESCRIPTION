@@ -1,6 +1,6 @@
 Package: dsBio
 Title: Bio DataSHIELD server site base functions
-Version: 1.0.0
+Version: 0.1.0-1
 Author: DataSHIELD Developers <datashield@newcastle.ac.uk>
 Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
 License: GPL-3
@@ -10,7 +10,8 @@ Imports:
 AggregateMethods:
     limma.topTableDS,
     limma.decideTablesDS,
-    bioconductor.available=BiocManager::available,
-    bioconductor.valid=BiocManager::valid
+    biocmanager.install=BiocManager::install,
+    biocmanager.available=BiocManager::available,
+    biocmanager.valid=BiocManager::valid
 AssignMethods:
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
