@@ -8,9 +8,9 @@ Description: Bio DataSHIELD server site base functions.
 Imports:
     BiocManager
 AggregateMethods:
-    limma.TopTableDS,
-    limma.DecideTablesDS,
-    bioconductor.Available=BiocManager::available,
-    bioconductor.Aalid=BiocManager::available
+    limma.topTableDS,
+    limma.decideTablesDS,
+    bioconductor.available=BiocManager::available,
+    bioconductor.valid=BiocManager::valid
 AssignMethods:
 RoxygenNote: 6.1.1

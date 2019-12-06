@@ -1,15 +1,17 @@
 #'
-#' @title limmaDecideTablesDS
-#' @description The serverside function called by ds.limmaDecideTables
+#' @title limma.decideTablesDS
+#' @description The serverside function called by ds.limma.decideTables
 #' @details Returns a decide table
 #' @param table.name the name of the decide table to be returned
 #' @author DataSHIELD team
 #' @export
 #'
-limmaDecideTablesDS <- function(table.name=NULL){
+
+limma.decideTablesDS <- function(table.name=NULL){
 
   return(list(test.name=table.name))
 
 }
+
 #AGGREGATE FUNCTION
-# limmaDecideTablesDS
+# limma.decideTablesDS
